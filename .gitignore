@@ -1,0 +1,62 @@
+# Arduino
+*.hex
+*.elf
+*.bin
+*.map
+*.lss
+*.eep
+*.sym
+
+# STM32CubeIDE
+Debug/
+Release/
+.settings/
+*.launch
+.cproject
+.project
+
+# Build artifacts
+build/
+*.o
+*.d
+*.su
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Temporary files
+*.tmp
+temp/
+
+# Documentation builds
+docs/_build/
+*.pdf
+
+# Python (if using scripts)
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+
+# Node (if using web tools)
+node_modules/
+package-lock.json
+
+# Personal notes
+notes.txt
+TODO.txt
